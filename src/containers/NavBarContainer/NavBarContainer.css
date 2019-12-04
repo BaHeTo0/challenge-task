@@ -1,0 +1,16 @@
+.NavBarContainer > ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    display: table-row;
+}
+
+.NavBarContainer {
+    display: table;
+    table-layout: fixed;
+    width:100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+

@@ -1,0 +1,35 @@
+.updateContainer > button {
+    display: inline-block;
+    margin: 5px;
+    background: linear-gradient(-135deg, rgba(225,169,255,1) 0%, rgba(255,0,97,1) 100%);
+    color: white;
+    letter-spacing: 1px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 20px;
+    z-index: 9;
+    position: relative;
+}
+
+.updateContainer .progress{
+    margin-left: -25px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 220px;
+}
+
+.progress-bar {
+    background: #b9a1ae;
+    color: #e5e;
+    font-weight: bold;
+}
+
+.updateContainer {
+    line-height: 60px;
+    height: 60px;
+    display: block;
+}

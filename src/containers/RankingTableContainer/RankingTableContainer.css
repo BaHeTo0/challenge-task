@@ -1,0 +1,15 @@
+.tableContent {
+    display: table;
+    table-layout: fixed;
+    width:100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.dataTables_wrapper > div:first-of-type {
+    display: none;
+}
+
+.dataTable > thead:last-of-type {
+    display: none;
+}

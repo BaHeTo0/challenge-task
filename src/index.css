@@ -5,6 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(225,169,255);
+  background: linear-gradient(0deg, rgba(237, 210, 225,1) 0%, rgba(249,243,247,1) 100%) no-repeat;
+}
+html {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
 
 code {

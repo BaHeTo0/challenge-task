@@ -1,0 +1,25 @@
+.NavBarContainer > ul > li {
+    display: table-cell;
+    margin: 20px;
+    background-color: white;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 5px;
+}
+.NavBarContainer > ul > li:first-of-type {
+    margin-left: 0;
+}
+.NavBarContainer > ul > li:last-of-type {
+    margin-right: 0;
+}
+
+.NavBarContainer > ul > li:hover {
+    cursor: pointer;
+    box-shadow: 0 2px #aaa;
+}
+
+.currentPage {
+    color: #e467c1;
+    box-shadow: 0 5px 10px 1px #ccc;
+}
